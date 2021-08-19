@@ -8,10 +8,10 @@
 using namespace std;
 int main()
 {
-    int ; //declare the varibales
-    std::cout << "Enter the values of p,t,r: " //find the missing statement
-    std::cin >> p >> t >> r //find the missing statement
-                            //find the missing expression to calculate simple interest
+    int p,t,r,s; //declare the varibales
+    std::cout << "Enter the values of p,t,r: "; 
+    std::cin >> p >> t >> r; 
+    s=(p*t*r)/100;
     std::cout << s;  
     return 0;
 }
