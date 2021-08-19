@@ -8,17 +8,18 @@
 using namespace std;
 int main()
 {
-    int n, sum = 0, ; //complete the declaration part
+    int n, sum = 0,i=0 ; //complete the declaration part
 
     std::cout << "Enter a positive integer: ";
     std::cin >> n;
 
     while(i<=n)
     {
-        //complete the missing code
-        //complete the missing code
+       sum=sum+i; 
+       i++; 
     }
 
     std::cout <<sum;
     return 0;
 }
+
