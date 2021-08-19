@@ -10,8 +10,9 @@ int main()
 {    
     int a, b, r;
     std::cout << "Enter two numbers: ";
-    std::cin >>  >>; //Read the variables
-    r = a   b; //find the suitable operator
-    std::cout << ; //print the result
+    std::cin >>a>>b; 
+    r = a%b; 
+    std::cout <<r; 
     return 0;
 }
+
