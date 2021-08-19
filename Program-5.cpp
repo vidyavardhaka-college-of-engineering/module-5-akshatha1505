@@ -5,13 +5,13 @@
 //Output: eligible to vote
 
 #include<iostream>
-//using namespace std;
+using namespace std;
 int main()
 {
-int ;//declare the variable
+int age;
 std::cout<<"Enter the age";
 std::cin>>age;
-if()//complete the missing part to check the condition
+if(age>=18)
 	{
 		cout<<"person is eligible for voting";
 	}
@@ -19,5 +19,7 @@ if()//complete the missing part to check the condition
 	{
 		cout<<"person is not eligible for voting";
 	}
-	return 0 //correct the output
+	return 0; 
 }
+
+
